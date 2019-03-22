@@ -67,6 +67,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.thoughtworks.gauge</groupId>
+			<artifactId>gauge-java</artifactId>
+			<version>0.6.9</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>4.2.6</version>
@@ -90,13 +96,6 @@
 			<version>6.2.0</version>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.thoughtworks.gauge</groupId>
-            <artifactId>gauge-java</artifactId>
-            <version>0.7.1</version>
-            <scope>test</scope>
-        </dependency>
-
 	</dependencies>
 
 	<build>
