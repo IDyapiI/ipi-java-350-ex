@@ -9,6 +9,51 @@ import java.time.LocalDate;
 
 public class EmployeTest {
 
+    @Test 
+    public void augmenterSalaireNormalUse(){
+        //Given 
+            Employe employe = new Employe();
+            //salaire de base 1521.22 
+            Double newSalaire = 2890.318;
+        //When 
+            employe.augmenterSalaire(0.9);
+        //Then
+        Assertions.assertEquals(newSalaire, employe.getSalaire());
+    }
+    @Test
+    public void augmenterSalaireBy0() {
+        // Given
+        Employe employe = new Employe();
+        // salaire de base 1521.22
+        Double newSalaire = 1521.22;
+        // When
+        employe.augmenterSalaire(0);
+        // Then
+        Assertions.assertEquals(newSalaire, employe.getSalaire());
+    }
+    @Test
+    public void augmenterSalaireByNegatif() {
+        // Given
+        Employe employe = new Employe();
+        // salaire de base 1521.22
+        Double newSalaire = 1521.22;
+        // When pas possible kick manager pls 
+        employe.augmenterSalaire(-0.4);
+        // Then
+        Assertions.assertEquals(newSalaire, employe.getSalaire());
+    }
+    @Test
+    public void augmenterSalaireWithANull() {
+        // Given
+        Employe employe = new Employe();
+        employe.setSalaire(0.0);
+        Double newSalaire = 0.0;
+        // When
+        employe.augmenterSalaire(0.2);
+        // Then
+        Assertions.assertEquals(newSalaire, employe.getSalaire());
+    }
+
     @Test
     public void getNombreAnneeAncienneteNow(){
         //Given
