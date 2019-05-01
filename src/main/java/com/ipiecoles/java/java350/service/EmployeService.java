@@ -65,7 +65,7 @@ public class EmployeService {
         }
 
         //Calcul du salaire
-        Double salaire = Entreprise.COEFF_SALAIRE_ETUDES.get(niveauEtude) * Entreprise.SALAIRE_BASE;
+        Double salaire = Entreprise.getCoeffSalaireEtudes(niveauEtude) * Entreprise.SALAIRE_BASE;
         if(tempsPartiel != null){
             salaire = salaire * tempsPartiel;
         }
