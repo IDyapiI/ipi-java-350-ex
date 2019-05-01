@@ -1,0 +1,18 @@
+2019-05-01 11:22:37 - INFO  - Starting EmployeStepDefinitions on DESKTOP-6FLTH23 with PID 9592 (started by Dyapi in c:\Users\Dyapi\Desktop\ipi-java-350-ex)
+2019-05-01 11:22:37 - INFO  - No active profile set, falling back to default profiles: default
+2019-05-01 11:22:48 - INFO  - Started EmployeStepDefinitions in 11.76 seconds (JVM running for 16.269)
+2019-05-01 11:22:49 - INFO  - Embauche de l'employé John Doe diplômé de CAP en tant que TECHNICIEN avec un taux d'activité de 1.0 
+2019-05-01 11:22:53 - INFO  - Embauche de l'employé John Doe diplômé de MASTER en tant que MANAGER avec un taux d'activité de 0.5 
+2019-05-01 11:22:53 - INFO  - Embauche de l'employé John Doe diplômé de MASTER en tant que MANAGER avec un taux d'activité de 0.5 
+2019-05-01 11:22:53 - ERROR - Limite des 100000 matricules atteinte !
+2019-05-01 11:22:53 - INFO  - Embauche de l'employé John Doe diplômé de MASTER en tant que MANAGER avec un taux d'activité de 0.5 
+2019-05-01 11:22:53 - INFO  - Embauche de l'employé John Doe diplômé de BTS_IUT en tant que TECHNICIEN avec un taux d'activité de 1.0 
+2019-05-01 11:22:53 - INFO  - Embauche de l'employé John Doe diplômé de MASTER en tant que MANAGER avec un taux d'activité de 0.5 
+2019-05-01 11:22:53 - ERROR - L'employé de matricule M00001 existe déjà en BDD
+2019-05-01 11:22:55 - INFO  - Starting EmployeRepositoryTest on DESKTOP-6FLTH23 with PID 13848 (started by Dyapi in c:\Users\Dyapi\Desktop\ipi-java-350-ex)
+2019-05-01 11:22:55 - INFO  - No active profile set, falling back to default profiles: default
+2019-05-01 11:23:04 - INFO  - Started EmployeRepositoryTest in 10.43 seconds (JVM running for 14.996)
+2019-05-01 11:23:06 - INFO  - Starting EmployeServiceIntegrationTest on DESKTOP-6FLTH23 with PID 13848 (started by Dyapi in c:\Users\Dyapi\Desktop\ipi-java-350-ex)
+2019-05-01 11:23:06 - INFO  - No active profile set, falling back to default profiles: default
+2019-05-01 11:23:10 - INFO  - Started EmployeServiceIntegrationTest in 4.85 seconds (JVM running for 20.939)
+2019-05-01 11:23:11 - INFO  - Embauche de l'employé John Doe diplômé de BTS_IUT en tant que TECHNICIEN avec un taux d'activité de 1.0 
