@@ -4,5 +4,5 @@ addons:
   sonarcloud:
     organization: "idyapii-github" 
 script:
-- mvn org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=IDyapiI_ipi-java-350-ex2 
+- mvn org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=IDyapiI_ipi-java-350-ex
 
