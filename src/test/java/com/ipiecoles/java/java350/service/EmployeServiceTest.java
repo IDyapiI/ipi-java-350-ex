@@ -147,7 +147,7 @@ public class EmployeServiceTest {
 
       @ParameterizedTest
     @CsvSource({
-            "150000, 200000, 4, 1", "160000, 200000, 4, 2", "180000, 200000, 2, 1"
+            "150000, 200000, 1, 1"
     })
     public void testCalculPerformanceNominalCases(Long caTraite, Long objectifCa, int initialPerformance,
             int performanceComputed) throws EmployeException {
@@ -155,7 +155,6 @@ public class EmployeServiceTest {
         Employe employe = new Employe();
         employe.setPerformance(initialPerformance);
         Mockito.when(employeRepository.findByMatricule("C00001")).thenReturn(employe);
-        // average performance will be set to 2 for every tests
         Mockito.when(employeRepository.avgPerformanceWhereMatriculeStartsWith("C")).thenReturn(2.0);
 
         // When

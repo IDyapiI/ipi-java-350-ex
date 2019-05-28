@@ -67,7 +67,7 @@ public class EmployeServiceIntegrationTest {
         String matricule = "C123456";
         Long caTraite = 2200L;
         Long objectifCa = 2000L;
-        Integer performance = 3;
+        Integer performance = 5;
         Double tempsPartiel = 1.0;
         employeRepository.save(new Employe(nom, prenom, matricule, LocalDate.now(), salaire, performance, tempsPartiel));
         // When
