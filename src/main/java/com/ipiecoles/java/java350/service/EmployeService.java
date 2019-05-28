@@ -141,4 +141,5 @@ public class EmployeService {
         if(performanceMoyenne != null && performance > performanceMoyenne){
             performance++;
         }
+    }
 }
